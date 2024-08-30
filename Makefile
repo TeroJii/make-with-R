@@ -6,3 +6,4 @@ Figs/fig1.pdf: R/fig1.R
 clean:
 	rm -f R/Figs/fig1.pdf
 	rm -f R/fig1.Rout
+	rmdir R/Figs
