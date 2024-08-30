@@ -13,3 +13,13 @@ There are a few really good tutorials for make files:
 ### Some example repos
 
   - [By Joe Powers](https://github.com/joepowers16/makefile_example_for_R)
+  
+# Possible issues
+
+I ran into an issue trying to load packages in the R script. I had to add the following to the top of the R script:
+
+```R
+.libPaths("<library path>")
+```
+
+See this discussion on the [issue](https://github.com/STAT545-UBC/Discussion/issues/250)
